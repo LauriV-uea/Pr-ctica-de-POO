@@ -44,7 +44,3 @@ print(correo2.enviar())
 correo1.set__remitente("Esteban15@gmail.com")
 
 print(correo1.enviar())
-
-
-
-
