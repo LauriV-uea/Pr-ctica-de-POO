@@ -25,7 +25,7 @@ class CorreoConArchivo (CorreoElectronico):
         super().__init__(remitente, destinatario, asunto, cuerpo)
         self.archivo_adjunto = archivo_adjunto
 
- #polimorfismo- sobrecarga del método enviar
+ #polimorfismo- sobrecarga del metodo enviar
     def enviar(self):
         base_mensaje =  super().enviar()
         return f"{base_mensaje} y el archivo adjunto {self.archivo_adjunto}"
